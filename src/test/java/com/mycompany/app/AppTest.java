@@ -16,6 +16,7 @@ public class AppTest {
     	modules.put("MA", "1101R");
     	modules.put("MA", "1100");
     	modules.put("IS", "1103");
+	modules.put("IS", "3201");
 
     	assertEquals(modules.get("CS").size(), 2);
     	assertEquals(modules.get("MA").size(), 2);
